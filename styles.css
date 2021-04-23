@@ -1,0 +1,40 @@
+body {
+    background-color:rgb(220, 243, 235);
+    margin: 0px;
+
+}
+/*  */
+.mainContainer {
+    height: 100vh;
+}
+
+.border {
+    border: 1px solid rgb(184, 11, 11);
+}
+.border-blue {
+    border: 1px solid blue;
+}
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20 0 20;
+
+}
+.logo {
+    width: 200px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 250;
+}
+main {
+    height: calc(100vh-80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
